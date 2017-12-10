@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.1"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Nach wem soll gefiltert werden?"
+            android:textSize="22dp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radio_marc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Marc"
+                android:textSize="20dp" />
+
+            <RadioButton
+                android:id="@+id/radio_laura"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Laura"
+                android:textSize="20dp" />
+
+            <RadioButton
+                android:id="@+id/radio_beide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="beide"
+                android:textSize="20dp" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.4"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nach welcher Kategorie filtern?"
+            android:textSize="22dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="(nur eine Kategorie auswählen)" />
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/switch_lebensmittel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lebensmittel"
+            android:textSize="20dp" />
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/switch_wohnung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wohnung"
+            android:textSize="20dp" />
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/switch_freizeit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Freizeit"
+            android:textSize="20dp" />
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/switch_urlaub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Urlaub"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/btn_filterAnwenden"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Filter anwenden" />
+
+        <Button
+            android:id="@+id/btn_filterZurücksetzen"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Filter zurücksetzen" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

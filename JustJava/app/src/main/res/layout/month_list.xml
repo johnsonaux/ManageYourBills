@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/januar"
+            style="@style/MonatsListeStyle"
+            android:text="Januar" />
+
+        <View style="@style/TrennLinie" />
+
+        <TextView
+            android:id="@+id/februar"
+            style="@style/MonatsListeStyle"
+            android:text="Februar" />
+
+        <View style="@style/TrennLinie" />
+
+        <TextView
+            android:id="@+id/märz"
+            style="@style/MonatsListeStyle"
+            android:text="März" />
+
+        <View style="@style/TrennLinie" />
+
+        <TextView
+            android:id="@+id/april"
+            style="@style/MonatsListeStyle"
+            android:text="April" />
+
+        <View style="@style/TrennLinie" />
+
+        <TextView
+            android:id="@+id/mai"
+            style="@style/MonatsListeStyle"
+            android:text="Mai" />
+
+        <View style="@style/TrennLinie" />
+
+        <TextView
+            android:id="@+id/juni"
+            style="@style/MonatsListeStyle"
+            android:text="Juni" />
+
+        <View style="@style/TrennLinie" />
+
+        <TextView
+            android:id="@+id/juli"
+            style="@style/MonatsListeStyle"
+            android:text="Juli" />
+
+        <View style="@style/TrennLinie" />
+
+        <TextView
+            android:id="@+id/august"
+            style="@style/MonatsListeStyle"
+            android:text="August" />
+
+        <View style="@style/TrennLinie" />
+
+        <TextView
+            android:id="@+id/september"
+            style="@style/MonatsListeStyle"
+            android:text="September" />
+
+        <View style="@style/TrennLinie" />
+
+        <TextView
+            android:id="@+id/oktober"
+            style="@style/MonatsListeStyle"
+            android:text="Oktober" />
+
+        <View style="@style/TrennLinie" />
+
+        <TextView
+            android:id="@+id/november"
+            style="@style/MonatsListeStyle"
+            android:text="November" />
+
+        <View style="@style/TrennLinie" />
+
+        <TextView
+            android:id="@+id/dezember"
+            style="@style/MonatsListeStyle"
+            android:text="Dezemeber" />
+
+    </LinearLayout>
+
+</ScrollView>

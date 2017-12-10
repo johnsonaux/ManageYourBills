@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#536DFE</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="background_oldBills">#adadad</color>
+    <color name="background_men">#536DFE</color>
+    <color name="background_women">#ED42A8</color>
+    <color name="background_lightGrey">#E0E0E0</color>
+    <color name="background_listView">#F6F6F6</color>
+    <color name="textColor_Table_Names">#B3B3B3</color>
+    <color name="background_table">#92A1CF</color>
+    <color name="textColor_tables">#2B3D4D</color>
+</resources>

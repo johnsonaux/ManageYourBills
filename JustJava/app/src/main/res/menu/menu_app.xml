@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<item
+    android:id="@+id/action_filterActivity"
+    android:title="@string/menu_item_filter" />
+<item
+    android:id="@+id/action_back_to_mainActivity"
+    android:title="@string/menu_item_back_to_mainActivity" />
+<item
+    android:id="@+id/send_email"
+    android:title="Email versenden" />
+
+</menu>
