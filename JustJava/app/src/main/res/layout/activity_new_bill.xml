@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.marca.justjava.AddNewBillActivity">
+
+
+    <TextView
+        android:id="@+id/aktuell_Zahlender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingTop="10dp"
+        android:text="Marc oder Laura"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <CheckBox
+            android:id="@+id/checkbox_Freizeit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="Freizeit"
+            android:textSize="16sp" />
+
+
+        <CheckBox
+            android:id="@+id/checkbox_Lebensmittel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="Lebensmittel"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/checkbox_Wohnung"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="Wohnung"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/checkbox_Urlaub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:paddingLeft="24dp"
+            android:text="Urlaub"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <DatePicker
+        android:id="@+id/datepicker_view"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:paddingLeft="12dp"
+        android:text="Ausgabe in €:"
+        android:textSize="20sp" />
+
+
+    <EditText
+        android:id="@+id/editText_ausgabe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="z.B.: 12.56"
+        android:inputType="numberDecimal"
+        android:paddingLeft="12dp" />
+
+
+    <EditText
+        android:id="@+id/editText_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kommentar"
+        android:paddingLeft="12dp" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="20dp"
+        android:text="speichern" />
+
+    <Button
+        android:id="@+id/delete_button"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Löschen"
+        android:visibility="gone" />
+
+</LinearLayout>

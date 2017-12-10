@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.marca.justjava">
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".AddNewBillActivity"
+            android:label="Neue Rechnung">
+        </activity>
+
+        <activity android:name=".AllBillsActivity"
+            android:label="Alle Rechnungen">
+        </activity>
+
+        <activity android:name=".FilterActivity"
+            android:label="Filter auswählen">
+        </activity>
+
+        <activity android:name=".EditActivity"
+            android:label="Rechnung bearbeiten">
+        </activity>
+
+        <activity android:name=".Monate.August"
+            android:label="August">
+        </activity>
+
+        <activity android:name=".Monate.January"
+            android:label="Januar">
+        </activity>
+
+        <activity android:name=".Monate.February"
+            android:label="Februar">
+        </activity>
+
+        <activity android:name=".Monate.March"
+            android:label="März">
+        </activity>
+
+        <activity android:name=".Monate.April"
+            android:label="April">
+        </activity>
+
+        <activity android:name=".Monate.May"
+            android:label="Mai">
+        </activity>
+
+        <activity android:name=".Monate.June"
+            android:label="Juni">
+        </activity>
+
+        <activity android:name=".Monate.July"
+            android:label="Juli">
+        </activity>
+
+        <activity android:name=".Monate.September"
+            android:label="September">
+        </activity>
+
+        <activity android:name=".Monate.October"
+            android:label="Oktober">
+        </activity>
+
+        <activity android:name=".Monate.November"
+            android:label="November">
+        </activity>
+
+        <activity android:name=".Monate.December"
+            android:label="Dezember">
+        </activity>
+
+        <activity android:name=".TableViewActivity"
+            android:label="Tabelle">
+        </activity>
+
+        <activity android:name=".NewUserActivity"
+            android:label="Neuen User Anlegen">
+        </activity>
+
+    </application>
+
+</manifest>

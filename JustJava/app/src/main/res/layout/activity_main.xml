@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans_serif-light"
+            android:paddingLeft="5dp"
+            android:text="@string/ausgaben" />
+
+        <View
+            style="@style/TrennLinie"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="120dp" />
+
+
+        <LinearLayout
+            android:id="@+id/current_expenses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/background_lightGrey"
+            android:paddingBottom="25dp">
+
+            <TextView
+                android:id="@+id/aktueller_Monat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="12dp"
+                android:layout_weight="1"
+                android:paddingLeft="10dp"
+                android:text="Monat: "
+                android:textColor="#000000"
+                android:textSize="22dp" />
+
+            <TextView
+                android:id="@+id/ausgaben_monat"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="12dp"
+                android:layout_weight="1"
+                android:paddingLeft="80dp"
+                android:text="€ 240"
+                android:textColor="#000000"
+                android:textSize="24dp" />
+
+        </LinearLayout>
+
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans_serif-light"
+            android:text="@string/mWho" />
+
+        <View
+            style="@style/TrennLinie"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="120dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/emptyView"
+                style="@style/whiteTextBlueBackground"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Bitte mindestens einen\n User hinzufügen.." />
+
+
+            <ListView
+                android:id="@+id/liste_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"></ListView>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/show_text"
+            style="@style/HeaderTextStyle"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif-light"
+            android:text="weitere Aktionen" />
+
+        <View
+            style="@style/TrennLinie"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="120dp" />
+
+
+        <Button
+            android:id="@+id/btn_ansicht_tabelle"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/background_lightGrey"
+            android:text="Ansicht Tabellle" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <Button
+            android:id="@+id/btn_new_user"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/background_lightGrey"
+            android:text="Neuen User hinzufügen" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>
